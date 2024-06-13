@@ -1,0 +1,120 @@
+.Page {
+    /* text-align: center; */
+    display: flex;
+    flex-flow: column wrap;
+    gap: 0px;
+    align-items: center;
+    
+  }
+  
+  .Page-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  
+  .Pageheader {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .Page-link {
+    color: #61dafb;
+  }
+  
+  @keyframes Page-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  .Header {
+     display: flex;
+     justify-content: center;
+    order:-1; 
+    font-family: sans-serif;
+  }
+  
+  .List {
+    max-height: 800px;
+    width: 800px;
+    position: relative;
+    left: 15px;
+    bottom: 5px;
+  }
+  
+  textarea {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    resize:none;
+    font-size: large;
+    overflow: hidden;
+    height: 790px;
+    width: 800px;
+    line-height: 53.33px;
+    outline: none;
+    position: relative;
+    left: px;
+  }
+  
+  
+  ul {
+    list-style: none;
+  }
+  
+  li:before {
+    font-weight: bold;
+    font-size: 22px;
+    content: "";
+    padding-right: 1vw;
+  }
+  
+  li {
+    vertical-align: baseline;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 300;
+    text-indent: -1em;
+    padding-left: 1em;
+    text-shadow: 2px 2px silver;
+  }
+  
+  body {
+    background-image: url("/Users/nn/Documents/my-app/src/images/realnotebookpaper.webp");
+    overflow: hidden;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-color: #FFE8B3;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  #head {
+    justify-self: center;
+  }
+  
+  .note {
+    border: none;
+    background: transparent;
+    outline: none;
+    height: 30px;
+    width: 750px;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 2px 2px silver;
+  }
+
+  #pageNum {
+    position: fixed;
+    display: flex;
+    align-self:self-end;
+    margin-right: 30px;
+  }
