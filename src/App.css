@@ -52,18 +52,35 @@ textarea {
   position: absolute;
 }
 
-#right {
+.action-arrow {
   position: fixed;
-  
   max-width: 100px;
   max-height: 100px;
+  width: 100px;
+  height: 100px;
   top: 90vh;
-  right: 0px;   
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
 }
+
+.action-arrow:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+}
+
+.action-arrow img {
+  width: 100px;
+  height: 100px;
+}
+
+#right {
+  right: 0px;
+}
+
 #left {
-  position: fixed;
-  
-  max-width: 100px;
-  max-height: 100px;
-  top: 90vh;
+  left: 0px;
 }

@@ -4,15 +4,15 @@
     flex-flow: column wrap;
     gap: 0px;
     align-items: center;
-    
+
   }
-  
+
   .Page-logo {
     height: 40vmin;
     pointer-events: none;
   }
-  
-  
+
+
   .Pageheader {
     background-color: #282c34;
     min-height: 100vh;
@@ -23,11 +23,11 @@
     font-size: calc(10px + 2vmin);
     color: white;
   }
-  
+
   .Page-link {
     color: #61dafb;
   }
-  
+
   @keyframes Page-logo-spin {
     from {
       transform: rotate(0deg);
@@ -39,10 +39,10 @@
   .Header {
      display: flex;
      justify-content: center;
-    order:-1; 
+    order:-1;
     font-family: sans-serif;
   }
-  
+
   .List {
     max-height: 800px;
     width: 800px;
@@ -50,7 +50,7 @@
     left: 15px;
     bottom: 5px;
   }
-  
+
   textarea {
     border: none;
     background-color: transparent;
@@ -65,19 +65,19 @@
     position: relative;
     left: px;
   }
-  
-  
+
+
   ul {
     list-style: none;
   }
-  
+
   li:before {
     font-weight: bold;
     font-size: 22px;
     content: "";
     padding-right: 1vw;
   }
-  
+
   li {
     vertical-align: baseline;
     font-size: 25px;
@@ -87,20 +87,20 @@
     padding-left: 1em;
     text-shadow: 2px 2px silver;
   }
-  
+
   body {
-    background-image: url("/Users/nn/Documents/my-app/src/images/realnotebookpaper.webp");
+    /*background-image: url("/Users/nn/Documents/my-app/src/images/realnotebookpaper.webp");*/
     overflow: hidden;
     background-position: center top;
     background-repeat: no-repeat;
     background-color: #FFE8B3;
     font-family: 'Courier New', Courier, monospace;
   }
-  
+
   #head {
     justify-self: center;
   }
-  
+
   .note {
     border: none;
     background: transparent;
