@@ -10,7 +10,6 @@ const Page = (props: pageProps) => {
 
   const inputRef = useRef<HTMLTextAreaElement | null>(null)
 
-
   const checkKey = (e: React.KeyboardEvent<HTMLTextAreaElement>) => {
     if (e.key === 'Tab') {
       inputRef.current!.setRangeText('\t', inputRef.current!.selectionStart, inputRef.current!.selectionStart, 'end')

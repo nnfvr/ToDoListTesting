@@ -63,7 +63,6 @@
     line-height: 53.33px;
     outline: none;
     position: relative;
-    left: px;
   }
 
 
@@ -89,7 +88,7 @@
   }
 
   body {
-    /*background-image: url("/Users/nn/Documents/my-app/src/images/realnotebookpaper.webp");*/
+    background-image: url("../public/realnotebookpaper.webp");
     overflow: hidden;
     background-position: center top;
     background-repeat: no-repeat;

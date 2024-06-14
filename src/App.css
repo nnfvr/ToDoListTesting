@@ -50,6 +50,14 @@ textarea {
   top: 50vh;
   right: 0vw;
   position: absolute;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+#book img {
+  width: 100px;
+  height: 100px;
 }
 
 .action-arrow {
@@ -65,6 +73,11 @@ textarea {
   background-color: transparent;
   border: none;
   cursor: pointer;
+}
+
+.Container {
+  justify-self: center;
+  align-items: center;
 }
 
 .action-arrow:hover {

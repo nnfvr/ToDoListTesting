@@ -1,0 +1,25 @@
+.contents {
+    display: flex;
+    width: 800px;
+    height: 800px;
+    background-color: antiquewhite;
+    flex-flow: column nowrap;
+    align-items: center;
+    position: absolute;
+    overflow: scroll;
+    gap: 10px;
+}
+
+.indexButton {
+    min-width: 800px;
+    max-width: 800px;
+    min-height: 40px;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: larger;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
