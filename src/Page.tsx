@@ -7,6 +7,11 @@ type pageProps = {
 }
 
 const Page = (props: pageProps) => {
+<<<<<<< HEAD
+=======
+
+  const inputRef = useRef<HTMLTextAreaElement | null>(null)
+>>>>>>> f9ac903 ([nt] mikes changes)
 
   const inputRef = useRef<HTMLTextAreaElement | null>(null)
 

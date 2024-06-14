@@ -88,7 +88,11 @@
   }
 
   body {
+<<<<<<< HEAD
     background-image: url("../public/realnotebookpaper.webp");
+=======
+    /*background-image: url("/Users/nn/Documents/my-app/src/images/realnotebookpaper.webp");*/
+>>>>>>> f9ac903 ([nt] mikes changes)
     overflow: hidden;
     background-position: center top;
     background-repeat: no-repeat;

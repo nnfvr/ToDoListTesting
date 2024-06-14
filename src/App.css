@@ -90,10 +90,42 @@ textarea {
   height: 100px;
 }
 
+<<<<<<< HEAD
 #right {
   right: 0px;
 }
 
+=======
+.action-arrow {
+  position: fixed;
+  max-width: 100px;
+  max-height: 100px;
+  width: 100px;
+  height: 100px;
+  top: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.action-arrow:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+}
+
+.action-arrow img {
+  width: 100px;
+  height: 100px;
+}
+
+#right {
+  right: 0px;
+}
+
+>>>>>>> f9ac903 ([nt] mikes changes)
 #left {
   left: 0px;
 }
